@@ -1,23 +1,39 @@
-#banner {
-    height: 100px;
+.banner {
+    height: 75px;
     width: auto;
     display: flex;
     margin-right: auto;
 }
 
-#banner>img {
+.banner>img {
     max-height: 100%;
     width: auto;
 }
 
-#navbar {
+.navbar {
     display: flex;
     margin-left: auto;
     justify-content: flex-end;
     align-items: center;
 }
 
- #navbar>div {
-    padding: 25px;
-    
+.border-bottom {
+    border-bottom: 2px solid #f5f6f7;
 }
+
+ .navbar>div {
+    padding: 25px;   
+}
+
+.navbar>div>a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar>div>a:hover {
+    text-decoration: underline;
+}
+
+.current-page {
+    border-bottom: 2px solid black;
+  }
